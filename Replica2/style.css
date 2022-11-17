@@ -136,6 +136,10 @@ body{
     
 }
 
+.texto{
+    padding-top: 100px;
+}
+
 .page2 .texto h2{
     font-family: 'Newsreader';
     font-style: normal;
@@ -158,7 +162,18 @@ a .btn{
 }
 
 a .btn:hover{
-    transform: scale(1.1) skewx(20deg);
+    transform: scale(1.1);
 }
 
-.boxs
+.container2{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.boxsa{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    transform: translate(10%, 150%);
+    z-index: -1;
+}
